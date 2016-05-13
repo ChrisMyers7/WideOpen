@@ -114,7 +114,10 @@ body {
     margin-top: 5vh;
     border-radius: 25px;
 }
-
+.learn-more button:hover {
+    background: #bdd537;
+    color: #fff;
+}
 @media (min-width: 500px) {
     .workshop {
         font-size: 90px;
@@ -132,7 +135,7 @@ body {
 
 @media (min-width: 700px) {
     .top-home-main {
-    height: 90vh;
+    height: 80vh;
     }
     .workshop {
         font-size: 140px;
@@ -312,12 +315,117 @@ body {
         width: 33.3%
     }
 }
+.help-container {
+    height: 176vh;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 40px 20px
+}
+.help-container h2 {
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    color: #40666d;
+    font-size: 42px;
+}
+.help-container p {
+    font-size: 18px;
+    font-weight: 350;
+    color: #858585;
+}
+.help-green {
+    color: #bdd537;
+    font-weight: 600;
+}
+.help-container {
+    color: #40666d;
+    font-family: 'lato', sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+.container-help-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120vh;
+    margin-top: 30px
+}
+.help-inner {
+    background: #fff;
+    padding: 20px;
+}
+.help-container button {
+      font-family: 'Lato', sans-serif;
+    color: #bdd537;
+    font-size: 16px;
+    border: 2px solid #bdd537;
+    background: transparent;
+    font-weight: 700;
+    padding: 11px 85px;
+    margin-top: 5vh;
+    border-radius: 25px;
 
+}
+.help-container button:hover {
+    background: #bdd537;
+    color: #fff;
+}
+@media (min-width: 700px) {
+    .help-inner {
+        width: 48%
+    }
+    .container-help-inner {
+        height: 60vh;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    .help-container h2 {
+        width: 50%;
+        margin: auto;
+    }
+    .help-container h4 {
+        width: 60%;
+        margin: auto
+    }
+    .help-container {
+        height: 114vh
+    }
+}
+@media (min-width: 800px) {
+    .container-help-inner {
+        width: 60%;
+        margin: auto;
+        height: 70vh;
+        justify-content: space-between;
+    9
+    .help-inner {
+        width: 45%;
+    }
+    }
+}
+@media (min-width: 1000px) {
+    .container-help-inner {
+        width: 60%;
+        margin: auto;
+        height: 60vh;
+        justify-content: space-around;
+    }
+    .help-inner {
+        width: 45%;
+    }
+    .help-container {
+        height: 95vh;
+    }
+}
 
-
-
-
-
+/* New section here */
+    
+.green-section {
+    background: #bdd537;
+    color: #fff;
+    height: 150vh;
+    width: 100%;
+    
+}
 
 
 
