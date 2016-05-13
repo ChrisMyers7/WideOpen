@@ -1,0 +1,331 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-home-main {
+    background: url("../img/background.jpg") center no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.top-home-header {
+    width: 100%;
+    height: 14vh;
+    position: relative;
+}
+.nav-wrapper {
+  display: flex;
+    height: 70vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.hamburger {
+    width: 100%;
+}
+.nav-bar {
+    flex-grow: 4;
+}
+.logo {
+    background:  url("../img/wot-logo-whitex2.svg") center no-repeat;
+    background-size: contain;
+    height: 31px;
+    width: 155px;
+    position: relative;
+    top: 4vh;
+    display: inline-block;
+    left: 4vh;
+}
+.menu-bar {
+    background: url("../img/hamburger.png") center no-repeat;
+    background-size: cover;
+    width: 39.19px;
+    height: 31px;
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 4vh;
+    right: 1vh
+}
+.your-digital {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'lato', sans-serif;
+    display: block;
+    padding: 0px;
+}
+.workshop {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 67.4px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+.building {
+    flex-grow: 3;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+}
+.building-inner {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+.mini-box {
+    background: #fff;
+    height: 9px;
+    width: 39px;
+}
+.right {
+    margin-right: 8%;
+}
+.left {
+    margin-left: 8%;
+}
+#solutions {
+    color: #ff803a;
+}
+#ideas {
+    color: #bdd537;
+}
+.learn-more {
+    flex-grow: 8;
+    text-align: center;
+}
+.learn-more button {
+    font-family: 'Lato', sans-serif;
+    color: #bdd537;
+    font-size: 16px;
+    border: 2px solid #bdd537;
+    background: transparent;
+    font-weight: 700;
+    padding: 11px 85px;
+    margin-top: 5vh;
+    border-radius: 25px;
+}
+
+@media (min-width: 500px) {
+    .workshop {
+        font-size: 90px;
+    }
+    .learn-more button {
+        padding: 20px 150px;
+    }
+    .left {
+        margin-left: 15%;
+    }
+    .right {
+        margin-right: 15%;
+    }
+} 
+
+@media (min-width: 700px) {
+    .top-home-main {
+    height: 90vh;
+    }
+    .workshop {
+        font-size: 140px;
+    }
+    .learn-more button {
+        padding: 20px 40px;
+        position: relative;
+        top: 40px;
+    }
+    .left {
+        margin-left: 12%;
+    }
+    .right {
+        margin-right: 12%;
+    }
+    .mini-box {
+        width: 90px;
+        height: 15px;
+        position: relative;
+        top: 4px;
+    }
+} 
+
+/* after top-home-container; beggining of container-intro-text */
+
+.container-intro-text {
+    height: 120vh;
+    width: 100%;
+    background: #f0f0f0;
+    color: #40666d;
+    margin: 0px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.intro-text {
+    flex-grow: ;
+    color: #40666d;
+    text-align: center;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 38px;
+    font-family: 'Lato', sans-serif;
+}
+
+.intro-text p strong {
+    font-weight: 500;
+}
+.container-intro-inner-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrench-photo {
+    background: url("../img/tool1.PNG") center no-repeat;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+.inner-container-text {
+    font-size: 42px;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 550;
+}
+.works {
+    color: #bdd537;
+    font-weight: bold;
+}
+
+@media (min-width: 500px) {
+    .container-intro-text {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .container-intro-text {
+        height: 90vh;
+    }
+}
+@media (min-width: 700px) {
+    .container-intro-text {
+        height: 60vh;
+    }
+}
+
+/* next section with light bulb, arrow, and power. white background section*/
+
+.container-services {
+    height: 300vh;
+    width: 100%;
+    background: #fff;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.lightbulb {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.lightbulb-photo {
+    flex-grow: 4;
+    background: url("../img/tool2.png") center no-repeat;
+    background-size: contain;
+    height: 160px;
+    width: 131px;
+    margin: auto;
+}
+.services-text {    
+    flex-grow: 4; 
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #AEBBC1;
+    text-align: center
+}
+.services-learn {
+    flex-grow: 2;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: #bdd537;
+    font-family: 'lato', sans-serif;
+    font-weight: 500;
+}
+.mini-arrow {
+    flex-grow: 1;
+    background: url("../img/toolarrow.png") center no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 27px;
+    margin: auto;
+}
+.arrow {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.arrow-photo {
+    flex-grow: 4;
+    background: url("../img/tool3.png") center no-repeat;
+    height: 160px;
+    width: 79px;
+    margin: auto;
+}
+.power {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.power-photo {
+    flex-grow: 4;
+    background: url("../img/tool4.png") center no-repeat;
+    background-size: contain;
+    height: 160px;
+    width: 94px;
+    margin: auto;
+}
+
+@media (min-width: 700px) {
+    .container-services {
+        flex-direction: row;
+        height: 60vh
+    }
+    .power {
+        width: 33.3%;
+    }
+    .arrow {
+        width: 33.3%;
+    }
+    .lightbulb {
+        width: 33.3%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
